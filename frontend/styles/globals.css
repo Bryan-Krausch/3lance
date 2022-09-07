@@ -7,3 +7,20 @@
     @apply bg-background-color;
   }
 }
+
+/* BIG TITLE */
+@font-face {
+  font-family: "markPro";
+  src: url("../public/fonts/markPro.ttf");
+}
+/* LITTLE TITLE */
+@font-face {
+  font-family: "ddin";
+  src: url("../public/fonts/D-DIN.ttf");
+}
+
+/* TEXT */
+@font-face {
+  font-family: "circular";
+  src: url("../public/fonts/circular.ttf");
+}

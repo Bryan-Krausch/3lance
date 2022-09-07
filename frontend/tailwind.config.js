@@ -7,11 +7,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'body': ['"Circular std"', 'sans-serif']
+        markPro: ['markPro', 'sans-serif'],
+        ddin: ['ddin', 'sans-serif'],
+        circular: ['circular', 'sans-serif'],
       },
       colors: {
         "header-bg": "#2a2b38",
-        "background-color": "#10101a"
+        "background-color": "#10101a",
+        "primary-color": "#c08af1",
+        "text-color": "#8b8b8b"
       }
     },
   },
