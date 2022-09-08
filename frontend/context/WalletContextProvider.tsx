@@ -14,9 +14,6 @@ const WalletContextProvider: FC<{children: ReactNode}> = ({children}) => {
     const wallets = useMemo(
         () => [
           new WalletAdapterWallet.PhantomWalletAdapter(),
-          new WalletAdapterWallet.GlowWalletAdapter(),
-          new WalletAdapterWallet.SlopeWalletAdapter(),
-          new WalletAdapterWallet.TorusWalletAdapter(),
         ],
         [network]
       );

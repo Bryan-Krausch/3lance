@@ -15,7 +15,11 @@ module.exports = {
         "header-bg": "#2a2b38",
         "background-color": "#10101a",
         "primary-color": "#c08af1",
-        "text-color": "#8b8b8b"
+        "orange-color": "#e6972f",
+        "green-color": "#6b9796;",
+        "blue-color": "#57a3c7",
+        "text-color": "#8b8b8b",
+        "bg-table": "#2C2C2C"
       }
     },
   },

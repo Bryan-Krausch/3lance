@@ -9,15 +9,16 @@ interface Workspace {
 export const WorkspaceContext = createContext<Workspace | null>(null)
 
 export const WorkspaceProvider: FC<any> = ({children}) => {
-    const wallet: any = useAnchorWallet()
+    const wallet: any = useAnchorWallet() 
+
 
     return (
-        <WorkspaceProvider 
+        <WorkspaceContext.Provider 
             value={{
                 wallet
             }}
         >
             {children}
-        </WorkspaceProvider>
+        </WorkspaceContext.Provider>
     )
 }
